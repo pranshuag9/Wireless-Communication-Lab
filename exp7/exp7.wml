@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
+	"http://www.wapforum.org/DTD/wml12.dtd">
+<wml>
+	<card id="CARD1" title="TUTORIAL">
+		<p>
+			<select name="NAME">
+			<option value="WML">WML </option>
+			<option value="HTML">HTML</option>
+			<option value="Xml">XML</option>
+			</select>
+			<do type="ACCEPT" label="MY_SUBJECT">
+			<go href="#CARD1"/>
+			</do>
+		YOU SELECTED: $(NAME)
+		</p>
+	</card>
+</wml>

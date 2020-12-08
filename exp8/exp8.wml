@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
+	"http://www.wapforum.org/DTD/wml12.dtd">
+<wml>
+	<card id="c1" title="Card #1">
+		<p align="center">
+		<big><b>First Card</b></big><br/> Hello Everyone<br/>
+		<a href="#c2">Card2</a><br/>
+		<a href="#c3">Card3</a><br/></p>
+	</card>
+	<card id="c2" title="Card #2">
+		<p align="center">
+		<big><b>Second Card</b></big><br/> Welcome to WML<br/>
+		<a href="#c1">Back</a><br/>
+		<a href="#c3">Next</a><br/>
+		</p>
+	</card>
+	<card id="c3" title="Card #3">
+		<p align="center">
+		<big><b>Third Card</b></big><br/> Have a good day<br/>
+		<a href="#c1"> Back to Card1</a><br/>
+		<a href="#c2"> Back to Card2</a><br/>
+		</p>
+	</card>
+</wml>

@@ -1,0 +1,4 @@
+extern function find() {    
+	var curcard=WMLBrowser.getCurrentCard(); WMLBrowser.setVar("currentcard",curcard); 
+	WMLBrowser.go("GCCE.wml#card2"); 
+} 

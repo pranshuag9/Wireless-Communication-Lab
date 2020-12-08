@@ -1,0 +1,6 @@
+extern function helloworld() 
+{ 
+WMLBrowser.setVar("message","Hello world Welcome to my wml tutorial"); 
+WMLBrowser.refresh(); 
+ 
+} 
